@@ -1,8 +1,20 @@
 # Solution for Natural Language Processing with Disaster Tweets
 
-Notebook [nlp-twitter-bert.ipynb](https://github.com/Omadzze/NLP-twitter/blob/main/nlp-twitter-bert.ipynb) contains solution which were used BERT model for text-classifciation. First, the data preprocessing process was done and all the unecessary data like: links, emojis, usernames and etc. was deleted. We then started tokenizing data and preparing it for fine-tuning.
+## Overview
 
-Moreover, [nlp-twitter-gemma.ipynb](https://github.com/Omadzze/NLP-twitter/blob/main/nlp-twitter-gemma.ipynb) this contains solution for the Gemma model which performing better than BERT model.
+This repository includes solutions for text classification on disaster tweets using various models. Two notable notebooks are:
 
-Gemma model score: 0.82899
-BERT model score: 0.82163
+1. **[nlp-twitter-bert.ipynb](https://github.com/Omadzze/NLP-twitter/blob/main/nlp-twitter-bert.ipynb)**:
+   - **Description**: This notebook details the use of a BERT model for text classification. The process includes data preprocessing, where unnecessary elements such as links, emojis, and usernames were removed, followed by tokenization and fine-tuning.
+   - **BERT Model Score**: 0.82163
+
+2. **[nlp-twitter-gemma.ipynb](https://github.com/Omadzze/NLP-twitter/blob/main/nlp-twitter-gemma.ipynb)**:
+   - **Description**: This notebook presents the Gemma model, which has been shown to perform better than the BERT model in this context.
+   - **Gemma Model Score**: 0.82899
+
+## Results
+
+- **Gemma Model Score**: 0.82899
+- **BERT Model Score**: 0.82163
+
+The Gemma model achieves a slightly higher performance compared to the BERT model. For detailed implementation and results, refer to the respective notebooks.
